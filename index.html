@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Meta information for SEO and responsiveness.
+        The <title> tag is crucial for search engines and browser tabs.
+        The <meta name="description"> provides a snippet for search results.
+        The <meta name="viewport"> ensures the page is responsive on different devices.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic and Accessible Webpage</title>
+    <meta name="description" content="A simple, well-structured webpage using only HTML5 semantic tags for a header, navigation, main content, and footer, optimized for accessibility and SEO.">
+</head>
+<body>
+    <!-- 
+        <header> represents the introductory content of the page.
+    -->
+    <header>
+        <h1>This is my Accessible Webpage</h1>
+    </header>
+
+    <!-- 
+        <nav> tag defines a section containing navigation links.
+    -->
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact-info">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 
+        <main> tag represents the dominant content of the document.
+    -->
+    <main>
+        <!-- 
+            <section> is a grouping of related content, typically with a heading.
+            This section introduces the purpose of the page.
+        -->
+        <section id="about-us">
+            <h2>About This Project</h2>
+            <p>This is a web page built with best practices in HTML5, focusing on using semantic tags to create a logical and accessible document structure</p>
+        </section>
+        
+        <!-- 
+            <article> is a self-contained composition  that in this case represents a specific feature.
+        -->
+        <article id="services">
+            <h2> Services</h2>
+            <p>We provide services to help businesses succceed in finding customers online.</p>
+            
+            <!-- 
+            Nested headings (h3) correctly maintain a clear hierarchy.
+            -->
+            <h3>Web Design</h3>
+            <p>Our team specializes in creating visually appealing and functional websites that are responsive and easy to use.</p>
+
+            <h3>SEO Optimization</h3>
+            <p>We help you improve your website's visibility on search engines, driving more organic traffic to your content.</p>
+        </article>
+
+        <!-- 
+            <aside> tag represents a section of a page that consists of content
+            tangentially related to the content around it.
+        -->
+        <aside>
+            <h3>Related Information</h3>
+            <p>This content could be a sidebar with links to related articles or a brief introduction to HTML5.</p>
+        </aside>
+    </main>
+
+    <!-- 
+        <footer> tag represents the footer of a document or a section containing copyright,contact info or links.
+    -->
+    <footer id="contact-info">
+        <p>Email: njoki19kj@gmail.com</p>
+        <p>&copy; 2025 Mary Njoki. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
